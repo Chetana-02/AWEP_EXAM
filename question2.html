@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            flex-direction: column;
+        }
+
+        .input{
+            margin:12px;
+            width:300px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex;justify-content: center;align-items: center;font-size: 50px;font-family: fantasy;margin-top:30px;">FORM</div>
+    <div class="main">
+        <input onclick="username()" id="username" class="input" type="username" placeholder="Enter Username">USERNAME</input>
+        <input class="input" type="password" placeholder="Enter Password">PASSWORD</input>
+        <input class="input" type="email" placeholder="Enter Email">EMAIL</input>
+    </div>
+
+    <div id="page"></div>
+</body>
+</html>
